@@ -6,3 +6,4 @@ Continuar con el proyecto realizado en el primer parcial, agregando nuevas mejor
   ![image](https://github.com/user-attachments/assets/7b6464e2-d827-488f-955f-989473b8e723)
 
 ![image](https://github.com/user-attachments/assets/921d98af-e163-466f-a9cb-4df82f005356)
+![image](https://github.com/user-attachments/assets/e781e61a-6bf1-4e20-ae41-3cb590ba62f2)
