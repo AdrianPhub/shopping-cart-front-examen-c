@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App develop - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="login-container">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            EGDUM  <i class="bi bi-bag-check"></i> 
+          </a>
+        </div>
+      </nav>
+
+      <div class="container my-auto py-4">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 col-xl-5">
+            <div class="card">
+              <div class="card-header text-center">
+                <h4><i class="bi bi-shield-lock me-2"></i>Iniciar Sesión</h4>
+              </div>
+              <div class="card-body p-4">
+                <div id="alert" class="mb-4"></div>
+                <form id="loginForm">
+                  <div class="mb-4">
+                    <div></div>
+                    <label for="name" class="form-label fw-semibold">Nombre de Usuario</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+                      <input type="text" class="form-control" id="nameInput"  required>
+                    </div>
+                    <div id="message" class="form-text text-muted mt-1">Esta informacion es confidencial.</div>
+                  </div>
+                  
+                  <div class="mb-4">
+                    <label for="password" class="form-label fw-semibold">Contraseña</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-key"></i></span>
+                      <input type="password" class="form-control" id="passwordInput" placeholder="••••••••" required>
+                    </div>
+                  </div>
+                  
+                  <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-login py-2">
+                      <i class="bi bi-box-arrow-in-right me-2"></i>Entrar
+                    </button>
+                  </div>
+                  
+                  <div class="text-center mt-3">
+                    <a href="#forgot-password" class="text-decoration-none">¿Olvidaste tu contraseña?</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <p class="fw-semibold mb-1">&copy; Todos los derechos reservados 2025</p>
+              <small class="text-muted">Versión 1.0.0</small>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="js/loginService.js"></script>
+</body>
+</html>
